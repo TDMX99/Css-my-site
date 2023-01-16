@@ -1,0 +1,172 @@
+body {
+    background-color: #FFF6C3;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 50px;
+    font-family: 'Pacifico', cursive;
+    color: #1A120B;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #3C2A21;
+
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    margin: 10px;
+}
+
+a:hover {
+    color: azure;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    padding: 20px 0;
+}
+
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 3em;
+}
+
+.skills {
+    padding-top: 10px;
+}
+
+.profile {
+    width: 50%;
+    margin: 100px auto 100px;
+    line-height: 3em;
+}
+
+
+/*classes*/
+
+.top {
+    background-color: #FFDB89;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-container {
+    margin-top: 40px;
+    background-color: #FFDB89;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.mountain-image {
+    padding-top: 50px;
+    width: 30rem;
+}
+
+.top-cloud {
+    position: absolute;
+    width: 10%;
+    padding-top: 20px;
+    top: 50px;
+    right: 400px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    width: 8%;
+    top: 480px;
+    left: 380px;
+}
+
+.get-in-touch {
+    margin-bottom: 20px;
+}
+
+.web {
+    text-decoration: underline;
+}
+
+.images1 {
+    width: 25%;
+    float: left;
+    padding-right: 40px;
+}
+
+.images2 {
+    width: 25%;
+    float: right;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+.TD-pic {
+    width: 25%;
+}
+
+hr {
+
+    border-style: none;
+    border-top: 1px dotted;
+    width: 10%;
+    height: 0px;
+    border-width: 10px;
+    padding-bottom: 30px;
+}
+
+/* START css for the contact me button START */
+.button-74 {
+    background-color: #FFDB89;
+    border: 2px solid #3C2A21;
+    border-radius: 30px;
+    box-shadow: #3C2A21 4px 4px 0 0;
+    color: #3C2A21;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-74:hover {
+    background-color: #fff;
+}
+
+.button-74:active {
+    box-shadow: #3C2A21 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-74 {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+
+/* END css for the contact me button END */
